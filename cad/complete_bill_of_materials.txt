@@ -1,0 +1,28 @@
+This is complete bill of materials for the laboratory Frenkel-Kontorova Model
+
+
+##################################
+	Mechanical parts
+##################################
+
+Springs:
+	- https://www.industrial-springs.com/t048-360-406r
+
+
+
+##################################
+	Electrical components
+##################################
+
+
+##################################
+	Electrical devices/products
+##################################
+
+Encoders:
+	- 
+	
+	
+FPGA development board:
+	- DE0-Nano Development and Education Board
+	- https://www.terasic.com.tw/cgi-bin/page/archive.pl?No=593
