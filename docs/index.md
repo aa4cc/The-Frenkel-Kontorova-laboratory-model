@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Flying Ball In Hoop
-subtitle:  Laboratory model for numerical optimal control
+title: The Frenkel-Kontorova laboratory model
+subtitle:  Laboratory model for boundary control
 ---
