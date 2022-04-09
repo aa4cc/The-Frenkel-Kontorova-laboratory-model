@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Frenkel-Kontorova laboratory model
-subtitle:  Laboratory model for boundary control
+subtitle:  Laboratory model for boundary control (site under construction)
 ---
 
 # Introduction

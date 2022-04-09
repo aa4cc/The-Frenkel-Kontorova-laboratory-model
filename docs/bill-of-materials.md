@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bill of Materials
+title: Bill of Materials (site under construction)
 ---
 The bill of materials is for $N$ (25) pendulum segments and 2 motors.
 
@@ -69,6 +69,11 @@ The bill of materials is for $N$ (25) pendulum segments and 2 motors.
 	- Quantity: 2
 	- Note: If Nema 17 stepper motors are used
 
+- Adapter for FPGA Shield
+    - 15W, 5V DC, 3A
+	- Qty.: 1
+
+
 # Electrical components
 
 ## FPGA Shield for rotary encoders readout
@@ -78,9 +83,15 @@ The bill of materials is for $N$ (25) pendulum segments and 2 motors.
 	- Quantity: 1 
 
 - Components:
-  - Molex 55935-0410
-    - Quantity: $N$ 
-
+    - Molex 55935-0410
+        - Quantity: $N$ 
+	- Bidirectional voltage-level translator
+    	- NVT2010PW,118
+		- Qty.: 5 
+    - Metal Film Chip Resistors
+        - ERA-6AED562V
+        - Qty.: 50
+    - 
 - Cables connecting FPGA Shield with encoders
 	- Mating connector with encoders: 
     	- Connector: JST ZPDR-18V-S

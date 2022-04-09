@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hardware assembly
-subtitle: A step-by-step guide (!! UNDER CONSTRUCTION !!)
+subtitle: A step-by-step guide (site under construction)
 ---
 The complete bill of materials needed for the whole model is [here](https://aa4cc.github.io/The-Frenkel-Kontorova-laboratory-model/bill-of-materials).
 

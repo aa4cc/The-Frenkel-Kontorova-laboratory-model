@@ -7,3 +7,9 @@ layout: base
 <div role="main" class="container">
   {{ content }}
 </div>
+
+<head>
+{% if page.use_math %}
+{% include mathjax_support.html %}
+{% endif %}
+</head>
