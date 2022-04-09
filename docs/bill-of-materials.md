@@ -2,7 +2,7 @@
 layout: page
 title: Bill of Materials
 ---
-The bill of materials is for _N_ (25) pendulum segments and 2 motors.
+The bill of materials is for $N$ (25) pendulum segments and 2 motors.
 
 # Mechanical parts
 
@@ -10,39 +10,48 @@ The bill of materials is for _N_ (25) pendulum segments and 2 motors.
 - Springs:
 	- T048-360-406R
 	- <https://www.industrial-springs.com/t048-360-406r>
-	- Quantity: _N_+1 (Recommended: 2 _N_)
-	- Note: With suitable changes of the spring sleeves, different springs can be used. 
+	- Quantity: $N+2$ (Recommended: $2\times N$)
+	- Note: With suitable changes of the 3D models of pendulum block, different springs can be used. 
 
-- Aluminium profiles
-- Aluminium rod for pendulums
+- Aluminum profiles
+	- 40x40, 8 mm slot I-TYPE.
+	- Total length: 0.07 m $\times N$ + 0.6 m (2.1 m for 20 pendulums)
+		- Main rod: 1 $\times$ 1.5 m
+		- Side rods: 2 $\times$ 0.3 m
+- Pendulum rod's:
+	- Aluminum round bar, Diameter: 5 mm
+	- Total length: 0.15 m $\times N$ (3 m for 20 pendulums)
 
 ## 3D-printed components
 
 - Pendulum support:
 	- <https://a360.co/3wYKgEr>
-	- Quantity: _N_
+	- Quantity: $N$
 
 - Bearings:
 	- 6804-2RS
 	- <https://a360.co/3uMFW8I>
-	- Quantity: _N_
+	- Quantity: $N$
+
 
 - Pendulum's weight holder
-	- Quantity: _N_
+	- Quantity: $N$
 	
+
 - Pendulum block
 	- <https://a360.co/3JjEwYM>
-	- Quantity: _N_
+	- Quantity: $N$
 	
-- Motor holders:
-	- Quantity: 2
 
-TBD
+- Motor holders:
+	- <https://a360.co/3M9fMnV>
+	- Quantity: 2
 
 # Electrical devices/products
 - FPGA development board:
 	- DE0-Nano Development and Education Board
 	- <https://www.terasic.com.tw/cgi-bin/page/archive.pl?No=593>
+	- Quantity: 1
 
 - Rotary encoders:
 	- AMT132S-V
@@ -68,11 +77,22 @@ TBD
 	- <https://github.com/ptrbroz/AA4CC_FK_model_sensors/>
 	- Quantity: 1 
 
-TBD
+- Components:
+  - Molex 55935-0410
+    - Quantity: $N$ 
 
+- Cables connecting FPGA Shield with encoders
+	- Mating connector with encoders: 
+    	- Connector: JST ZPDR-18V-S
+        	- Quantity: $N$ 
+    	- Contact: SZPD-002T-P0.3
+        	- Quantity: $4\times N$ 
+	- Mating connector with FPGA Shield
+    	- Connector: Molex 51382-0400
+        	- Quantity: $N$ 
+    	- Contact: Molex 56134-9001
+        	- Quantity: $4\times N$ 
 ## Miscellaneous
 
 - Connecting cables for encoders
 - Power supply for FPGA shield
-
-TBD
