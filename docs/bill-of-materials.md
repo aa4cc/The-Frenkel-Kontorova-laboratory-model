@@ -78,11 +78,11 @@ The bill of materials is for $N$ (25) pendulum segments and 2 motors.
 
 ## FPGA Shield for rotary encoders readout
 - PCB:
-	- Custom-made
-	- <https://github.com/ptrbroz/AA4CC_FK_model_sensors/>
+	- Custom-made. Please, visit: <https://github.com/ptrbroz/AA4CC_FK_model_sensors/>
 	- Quantity: 1 
 
-- Components:
+- PCB Components:
+    - 
     - Molex 55935-0410
         - Quantity: $N$ 
 	- Bidirectional voltage-level translator
@@ -90,7 +90,7 @@ The bill of materials is for $N$ (25) pendulum segments and 2 motors.
 		- Qty.: 5 
     - Metal Film Chip Resistors
         - ERA-6AED562V
-        - Qty.: 50
+        - Qty.: 70
     - 
 - Cables connecting FPGA Shield with encoders
 	- Mating connector with encoders: 

@@ -44,6 +44,7 @@ The pendulum segment is designed as a combination of off-the-shelf and 3D-printe
     - Insert **pendulum's rod** with **weight holder** into the **outer block**
     - Insert the spring into the **outer/inner** block
 
+![config_alu_profile](img/ipe_pendulum_segment.png)
 
 # Encoder cable
 ## Requirements
