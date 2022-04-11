@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Bill of Materials (site under construction)
+title: Bill of Materials (under construction)
 ---
 The bill of materials is for $N$ (25) pendulum segments and 2 motors.
 
@@ -42,8 +42,7 @@ The bill of materials is for $N$ (25) pendulum segments and 2 motors.
 	- <https://a360.co/3JjEwYM>
 	- Quantity: $N$
 	
-
-- Motor holders:
+- Motor support:
 	- <https://a360.co/3M9fMnV>
 	- Quantity: 2
 
@@ -56,7 +55,7 @@ The bill of materials is for $N$ (25) pendulum segments and 2 motors.
 - Rotary encoders:
 	- AMT132S-V
 	- <https://www.cuidevices.com/product/motion/rotary-encoders/incremental/modular/amt13-series>
-	- Quantity: _N_ (+ 2 if it is desired to measure angles of the motors)
+	- Quantity: $N$ (+ 2 if it is desired to measure angles of the motors)
 	
 - Motors:
 	- Nema 17 1.8° stepper motor

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Frenkel-Kontorova laboratory model
-subtitle:  Laboratory model for boundary control (site under construction)
+subtitle:  Laboratory model for boundary control (under construction)
 ---
 
 # Introduction
@@ -36,9 +36,12 @@ The motors actuating the chain are NEMA17 1.8° stepper motors controlled by Pol
 - <https://www.pololu.com/product/3138>
 
 ## Data acquisition
-The angles of the pendulums are measured by rotaty encoders AMT132S-V by CUI.
-
+The angles of the pendulums are measured by rotary encoders AMT132S-V by *CUI*. 
 To rapidly process all measurements, we designed a custom-made shield for FPGA board. 
-All relavant information are available at:
+The board is designed for maximum of 35 encoders, allowing read-out with a
+frequency up to 500 Hz and a resolution of 4096 pulses per one revolution.
+
+All relevant information are available at:
 - <https://github.com/ptrbroz/AA4CC_FK_model_sensors>
 
+![Model](img/FPGA_shield.jpg)

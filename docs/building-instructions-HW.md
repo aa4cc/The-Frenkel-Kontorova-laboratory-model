@@ -1,26 +1,26 @@
 ---
 layout: page
 title: Hardware assembly
-subtitle: A step-by-step guide (site under construction)
+subtitle: A step-by-step guide (under construction)
 ---
 The complete bill of materials needed for the whole model is [here](https://aa4cc.github.io/The-Frenkel-Kontorova-laboratory-model/bill-of-materials).
 
 The assembly guide shows, how to make following things:
-1. Frame
-2. Pendulum segment
-3. Motor segment
-4. FPGA shield
-5. Miscellaneous
+- Frame
+- Pendulum segment
+- Motor segment
+- FPGA shield
+- Miscellaneous
 
 
-# 1. Frame
+# Frame
 The frame is constructed from three aluminum profiles 40x40, 8 mm slot I-TYPE.
 The configuration and recommended lengths for 20 pendulums with two motors are depicted in the following figure:
 
 ![config_alu_profile](img/ipe_alu_frame.png)
 
 
-# 2. Pendulum segment
+# Pendulum segment
 The pendulum segment is designed as a combination of off-the-shelf and 3D-printed components.
 
 ## Requirements
@@ -33,7 +33,8 @@ The pendulum segment is designed as a combination of off-the-shelf and 3D-printe
     - Inner block
     - Outer block
 - Weight holder
-
+- Screws
+  
 ## Instructions
 - The configuration of the pendulum segment is here: <https://a360.co/3uP4RIG>.
     
@@ -48,22 +49,31 @@ The pendulum segment is designed as a combination of off-the-shelf and 3D-printe
 
 # Encoder cable
 ## Requirements
-
+- 4-wire cable
+    - Length of the segment: from 40 cm to 1 m.
+- Connector JST ZPDR-18V-S with 4 contacts SZPD-002T-P0.3
+- Connector Molex 55935-0410 with 4 contacts Molex 56134-9001
+- Crimping tool (recommended: PAD-11 ENGINEER)  
 
 ## Instructions
-- Get desired length of the **cable**
+- Get desired length of the **cable** from the **encoder** to the **FPGA Shield**. Note, that the **cable** could be inserted into the **support**.  
 - On both sides, crimp the conductors and insert them into the connectors.
     - For the **JST ZPDR-18V-S**, use the contact **SZPD-002T-P0.3**
+    - For the **Molex 55935-0410** use the contact **Molex 56134-9001**
     - See picture below of the desired cable configuration. Note, that because the **JST ZPDR-18V-S** was not available at the time of the assembly, we had to buy **JST ZPDR-20V-S** and cut off a part of the connector.
     - Note, that the order of colors is not the same on both connectors.
   
-![config_alu_profile](img/encoder_cable_final.jpg)
+![config_alu_profile](img/encoder_cable_final.png)
 
 # Motor segment
 
-
 ## Requirements
-
+- NEMA17 1.8° stepper motor
+- 3D-printed motor support: https://a360.co/3M9fMnV
+- 3D-printed connecting block
+- Motor Driver (Pololu Tic T249)
+- Screws
+- USB cable
 
 
 
