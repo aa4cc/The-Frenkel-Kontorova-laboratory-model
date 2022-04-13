@@ -1,11 +1,13 @@
 ---
 layout: page
 title: The Frenkel-Kontorova laboratory model
-subtitle:  Laboratory model for boundary control (under construction)
+subtitle:  Laboratory model for boundary control
 ---
 
 # Introduction
-The Frenkel-Kontorova laboratory model is an multi-pendulum platform that we developed as a testbed for control algorithms for this class of dynamical systems, for instance, distributed control or control of flexible structures. 
+The Frenkel-Kontorova laboratory model is a multi-pendulum platform that we developed as a testbed of control algorithms for a class of dynamical systems.
+The platform can be helpful for researchers in distributed control or control of flexible structures.
+The platform consists of an array of torsionally coupled pendulums pivoting around a single shaft that can be controlled through the motors at boundaries while all angles are read electronically.
 
 <!--
 ## Navigation
