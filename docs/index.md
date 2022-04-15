@@ -9,13 +9,6 @@ The Frenkel-Kontorova laboratory model is a multi-pendulum platform that we deve
 The platform can be helpful for researchers in distributed control or control of flexible structures.
 The platform consists of an array of torsionally coupled pendulums pivoting around a single shaft that can be controlled through the motors at boundaries while all angles are read electronically.
 
-<!--
-## Navigation
-- Building instructions are available [here](https://aa4cc.github.io/The-Frenkel-Kontorova-laboratory-model/building-instructions-HW/).
-- Bill of materials is [here](https://aa4cc.github.io/The-Frenkel-Kontorova-laboratory-model/building-instructions-HW/).
-- Software configuration is available [here](https://aa4cc.github.io/The-Frenkel-Kontorova-laboratory-model/building-instructions-HW/).
--->
-
 # Design
 You can see the model in the following picture:
 

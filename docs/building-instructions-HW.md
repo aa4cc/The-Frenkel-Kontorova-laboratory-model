@@ -10,7 +10,6 @@ The assembly guide shows, how to make following things:
 - Pendulum segment
 - Motor segment
 - FPGA shield
-- Miscellaneous
 
 
 # Frame
@@ -45,6 +44,7 @@ The pendulum segment is designed as a combination of off-the-shelf and 3D-printe
     - Attach the **encoder** to **support** using 2 diagonally placed screws or all 4 screws (**M3x14**)
     - Place the **outer block** onto the **inner block** and the **encoder**
     - Insert **pendulum's rod** with **weight holder** into the **outer block**
+    - Secure **weight holder** with a small screw if necessary.
     - Insert the spring into the **outer/inner** block
     - Attach the **support** to the **frame** with **M6x16**.
 
@@ -78,9 +78,14 @@ The pendulum segment is designed as a combination of off-the-shelf and 3D-printe
 - Screws
     - M3x14 hex socket button head screw (Qty.: at least 2x)
     - M6x16 hex socket cap screw (Qty.: 1) 
-- USB cable
+- USB-B cable for connecting motor driver to PC.
 
 
+# FPGA shield
+## Requirements
+- DE0-Nano FPGA Board
+- Custom-made PCB
+- Electrical components
 
-
+## Instructions
 

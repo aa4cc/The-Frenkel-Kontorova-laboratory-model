@@ -8,11 +8,11 @@ The bill of materials is for $N$ (25) pendulum segments and 2 motors.
 
 # Mechanical parts
 
-## Off-the-self components
+## Off-the-shelf components
 - Springs:
 	- T048-360-406R
 	- <https://www.industrial-springs.com/t048-360-406r>
-	- Quantity: $N+2$ (Recommended: $2\times N$)
+	- Qty.: $N+2$ (Recommended: $2\times N$)
 	- Note: With suitable changes of the 3D models of pendulum block, different springs can be used. 
 
 - Aluminum profiles
@@ -25,29 +25,26 @@ The bill of materials is for $N$ (25) pendulum segments and 2 motors.
 	- Total length: 0.15 m $\times N$ (3 m for 20 pendulums)
 
 - Bearings:
-	- 6804-2RS
-	- <https://a360.co/3uMFW8I>
-	- Quantity: $N$
+	- 6804-2RS: <https://a360.co/3uMFW8I>
+	- Qty.: $N$
 
 - Screws:
     - M6x16. Qty.: $N + 2$ 
     - M3x14. Qty.: $2 \times (N+2)$
 ## 3D-printed components
 
-- Pendulum support:
-	- <https://a360.co/3wYKgEr>
-	- Quantity: $N$
+- Pendulum support: <https://a360.co/3wYKgEr>
+	- Qty.: $N$
 
-- Pendulum's weight holder
-	- Quantity: $N$
+- Pendulum's weight holder: 
+    - <https://github.com/aa4cc/The-Frenkel-Kontorova-laboratory-model/blob/main/cad/weight_holder.stl>
+	- Qty.: $N$
 
-- Pendulum block
-	- <https://a360.co/3JjEwYM>
-	- Quantity: $N$
+- Pendulum block: <https://a360.co/3JjEwYM>
+    - Qty: $N$
 	
-- Motor support:
-	- <https://a360.co/3M9fMnV>
-	- Quantity: 2
+- Motor support: <https://a360.co/3M9fMnV>
+	- Qty.: 2
 
 # Electrical devices/products
 - FPGA development board:
