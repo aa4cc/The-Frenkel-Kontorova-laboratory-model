@@ -34,16 +34,19 @@ The pendulum segment is designed as a combination of off-the-shelf and 3D-printe
     - Outer block
 - Weight holder
 - Screws
+    - M3x14 hex socket button head screw (Qty.: at least 2x)
+    - M6x16 hex socket cap screw (Qty.: 1) 
   
 ## Instructions
 - The configuration of the pendulum segment is here: <https://a360.co/3uP4RIG>.
     
     - Insert the **bearing** into the **support**
     - Insert the **inner block** into the **bearing**
-    - Attach the **encoder** to **support** using 2 diagonally placed screws or all 4 screws
+    - Attach the **encoder** to **support** using 2 diagonally placed screws or all 4 screws (**M3x14**)
     - Place the **outer block** onto the **inner block** and the **encoder**
     - Insert **pendulum's rod** with **weight holder** into the **outer block**
     - Insert the spring into the **outer/inner** block
+    - Attach the **support** to the **frame** with **M6x16**.
 
 ![config_alu_profile](img/ipe_pendulum_segment.png)
 
@@ -69,10 +72,12 @@ The pendulum segment is designed as a combination of off-the-shelf and 3D-printe
 
 ## Requirements
 - NEMA17 1.8° stepper motor
-- 3D-printed motor support: https://a360.co/3M9fMnV
+- 3D-printed motor support: <https://a360.co/3M9fMnV>
 - 3D-printed connecting block
 - Motor Driver (Pololu Tic T249)
 - Screws
+    - M3x14 hex socket button head screw (Qty.: at least 2x)
+    - M6x16 hex socket cap screw (Qty.: 1) 
 - USB cable
 
 

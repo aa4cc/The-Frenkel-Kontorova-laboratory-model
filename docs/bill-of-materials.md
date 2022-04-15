@@ -29,6 +29,9 @@ The bill of materials is for $N$ (25) pendulum segments and 2 motors.
 	- <https://a360.co/3uMFW8I>
 	- Quantity: $N$
 
+- Screws:
+    - M6x16. Qty.: $N + 2$ 
+    - M3x14. Qty.: $2 \times (N+2)$
 ## 3D-printed components
 
 - Pendulum support:
@@ -98,41 +101,21 @@ The bill of materials is for $N$ (25) pendulum segments and 2 motors.
 	| 4        | Capacitor Radial D6.3mm P2.50mm     | 22 μF      |
 	| 7        | TSSOP-24 4.4x7.8mm P0.65mm          | NVT2010PW  |
 	| 1        | SSOP-28 5.3x10.2mm P0.65mm          | FT232RL    	|
-	| 1        | PJ-063AH CUI Devices 			  	 | (Barrel Jack)|
+	| 1        | PJ-063AH CUI Devices 			  	 | Barrel Jack|
 	| 1        | Molex 54819-0519                    | USB-B Mini |
 	| 35       | Molex 55935-0410                    | Connector  |
-	| 6        | PinHeader 2x04 P2.54mm Vertical     |            |
 	| 1        | Power Line Filtr, 25 V, 15 A        | BNX016-01  |
 	| 2        | PinSocket 2x20 P2.54mm Vertical SMD |            |
-
-
-<!--
-    - Molex 55935-0410
-        - Quantity: $N$ 
-	- Bidirectional voltage-level translator
-    	- NVT2010PW,118
-		- Qty.: 5 
-    - Metal Film Chip Resistors
-        - ERA-6AED562V
-        - Qty.: 70
--->
 
 
 
 - Cables connecting FPGA Shield with encoders
     - Type: data transmission wire with 4 cores.
 	- Total length: $0.4 \times N$ m.
-	- Mating connector with encoders: 
-    	- Connector: JST ZPDR-18V-S
-        	- Quantity: $N$ 
-    	- Contact: SZPD-002T-P0.3
-        	- Quantity: $4\times N$ 
+	- Mating connector with encoders:
+        - Connector: JST ZPDR-18V-S. Qty: $N$
+    	- Contact: SZPD-002T-P0.3. Qty: $4\times N$
 	- Mating connector with FPGA Shield
-    	- Connector: Molex 51382-0400
-        	- Quantity: $N$ 
-    	- Contact: Molex 56134-9001
-        	- Quantity: $4\times N$ 
-
-
-## Miscellaneous
+    	- Connector: Molex 51382-0400. Qty: $N$ 
+    	- Contact: Molex 56134-9001. Qty: $4\times N$ 
 
