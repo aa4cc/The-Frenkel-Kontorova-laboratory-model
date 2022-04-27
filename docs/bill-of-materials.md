@@ -2,7 +2,6 @@
 layout: page
 title: Bill of Materials
 ---
-*Site is currently under construction*
 
 The bill of materials is for $N$ (25) pendulum segments and 2 motors.
 

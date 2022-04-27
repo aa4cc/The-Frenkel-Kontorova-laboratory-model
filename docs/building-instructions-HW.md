@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Hardware assembly
-subtitle: A step-by-step guide (under construction)
+subtitle: A step-by-step guide
 ---
 The complete bill of materials needed for the whole model is [here](https://aa4cc.github.io/The-Frenkel-Kontorova-laboratory-model/bill-of-materials).
 
@@ -84,8 +84,7 @@ The pendulum segment is designed as a combination of off-the-shelf and 3D-printe
 # FPGA shield
 ## Requirements
 - DE0-Nano FPGA Board
-- Custom-made PCB
-- Electrical components
+- Custom-made PCB; see: <https://github.com/ptrbroz/AA4CC_FK_model_sensors/tree/main/FK_fpga_shield>
+- Electrical components listed in the bill of materials.
 
-## Instructions
 
